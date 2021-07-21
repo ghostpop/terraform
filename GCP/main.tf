@@ -9,10 +9,10 @@ terraform {
 }
 
 provider "google" {
-  project     = "playground-s-11-293957fa"
+  project     = "playground-s-11-73d16d69"
   region      = "us-central1"
   zone        = "us-central1-c"
-  credentials = file("playground-s-11-293957fa-3fb4c2cdeeee.json")
+  credentials = file("playground-s-11-73d16d69-ee65d5a2825e.json")
 }
 
 resource "google_compute_instance" "vm_instance" {
